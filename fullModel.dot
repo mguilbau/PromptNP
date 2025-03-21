@@ -1,0 +1,62 @@
+digraph "massModel"{
+"massModel" [ color=red, label="RooAddPdf
+massModel
+0.843385"];
+"m_bkg" [ color=red, label="RooVWG
+m_bkg
+0.999863"];
+"mass" [ color=blue, label="RooRealVar
+mass
+3.150000"];
+"A" [ color=blue, label="RooRealVar
+A
+3.125000"];
+"B" [ color=blue, label="RooRealVar
+B
+1.500000"];
+"C" [ color=blue, label="RooRealVar
+C
+1.500000"];
+"nbkg" [ color=blue, label="RooRealVar
+nbkg
+151846.000000"];
+"m_signal" [ color=red, label="RooDoubleCB
+m_signal
+0.686908"];
+"mJPsi" [ color=blue, label="RooRealVar
+mJPsi
+3.124000"];
+"sigma" [ color=blue, label="RooRealVar
+sigma
+0.030000"];
+"alpha1" [ color=blue, label="RooRealVar
+alpha1
+0.900000"];
+"n1" [ color=blue, label="RooRealVar
+n1
+15.000000"];
+"alpha2" [ color=blue, label="RooRealVar
+alpha2
+1.300000"];
+"n2" [ color=blue, label="RooRealVar
+n2
+9.000000"];
+"nsig" [ color=blue, label="RooRealVar
+nsig
+151846.000000"];
+"m_signal" -> "n1";
+"m_signal" -> "alpha1";
+"m_signal" -> "n2";
+"m_signal" -> "alpha2";
+"m_signal" -> "mJPsi";
+"m_signal" -> "sigma";
+"m_signal" -> "mass";
+"m_bkg" -> "C";
+"m_bkg" -> "A";
+"m_bkg" -> "B";
+"m_bkg" -> "mass";
+"massModel" -> "m_signal";
+"massModel" -> "m_bkg";
+"massModel" -> "nsig";
+"massModel" -> "nbkg";
+}

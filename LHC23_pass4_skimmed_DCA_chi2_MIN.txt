@@ -1,0 +1,272 @@
+ =============================== MASS ===============================
+ //0-1 values DCA Chi2 MIN 20
+  /*myws.factory(Form("mJPsi[%.4f]", 3.0986));
+  myws.factory(Form("sigma[%.4f]", 0.0446));
+  myws.factory(Form("n1[%.4f]", 8.5940));
+  myws.factory(Form("alpha1[%.4f]", 0.6922));
+  myws.factory(Form("n2[%.4f]", 0.1722));
+  myws.factory(Form("alpha2[%.4f]", 4.3037));
+  myws.factory(Form("lambdas[%.4f]", -1.9248));*/
+
+  //1-2 values DCA Chi2 MIN 20
+  /*myws.factory(Form("mJPsi[%.4f]", 3.0965));
+  myws.factory(Form("sigma[%.4f]", 0.0457));
+  myws.factory(Form("n1[%.4f]", 11.4774));
+  myws.factory(Form("alpha1[%.4f]", 0.6849));
+  myws.factory(Form("n2[%.4f]", 21.3325));
+  myws.factory(Form("alpha2[%.4f]", 5.8651));
+  myws.factory(Form("lambdas[%.4f]", -1.6628));*/
+
+  //2-3 values DCA Chi2 MIN 25
+  /*myws.factory(Form("mJPsi[%.4f]", 3.0942));
+  myws.factory(Form("sigma[%.4f]", 0.0497));
+  myws.factory(Form("n1[%.4f]", 6.2344));
+  myws.factory(Form("alpha1[%.4f]", 0.9074));
+  myws.factory(Form("n2[%.4f]", 9.9006));
+  myws.factory(Form("alpha2[%.4f]", 4.0399));
+  myws.factory(Form("lambdas[%.4f]", -1.9033));*/
+
+  //3-4 values DCA Chi2 MIN 30
+  /*myws.factory(Form("mJPsi[%.4f]", 3.0937));
+  myws.factory(Form("sigma[%.4f]", 0.0537));
+  myws.factory(Form("n1[%.4f]", 3.0131));
+  myws.factory(Form("alpha1[%.4f]", 0.9697));
+  myws.factory(Form("n2[%.4f]", 2.3774));
+  myws.factory(Form("alpha2[%.4f]", 2.35089));
+  myws.factory(Form("lambdas[%.4f]", -1.98384));*/
+
+  //4-5 values DCA Chi2 MIN 35
+  /*myws.factory(Form("mJPsi[%.4f]", 3.09276));
+  myws.factory(Form("sigma[%.4f]", 0.0578337));
+  myws.factory(Form("n1[%.4f]", 3.96205));
+  myws.factory(Form("alpha1[%.4f]", 0.983845));
+  myws.factory(Form("n2[%.4f]", 2.27941));
+  myws.factory(Form("alpha2[%.4f]", 2.21709));
+  myws.factory(Form("lambdas[%.4f]", -1.40893));*/
+
+  //5-6 values DCA Chi2 MIN 40
+  /*myws.factory(Form("mJPsi[%.4f]", 3.09528));
+  myws.factory(Form("sigma[%.4f]", 0.0583668));
+  myws.factory(Form("n1[%.4f]", 7.42702));
+  myws.factory(Form("alpha1[%.4f]",  0.900795));
+  myws.factory(Form("n2[%.4f]", 51.8118));
+  myws.factory(Form("alpha2[%.4f]", 5.62705));
+  myws.factory(Form("lambdas[%.4f]", -1.03349));*/
+
+  //6-8 values DCA Chi2 MIN 45
+  /*myws.factory(Form("mJPsi[%.4f]", 3.09945));
+  myws.factory(Form("sigma[%.4f]", 0.0584181));
+  myws.factory(Form("n1[%.4f]", 11.5374));
+  myws.factory(Form("alpha1[%.4f]",  0.859014));
+  myws.factory(Form("n2[%.4f]", 48.294));
+  myws.factory(Form("alpha2[%.4f]", 4.38231));
+  myws.factory(Form("lambdas[%.4f]", -0.830684));*/
+
+  //8-10 values DCA Chi2 MIN 55
+  /*myws.factory(Form("mJPsi[%.4f]", 3.101));
+  myws.factory(Form("sigma[%.4f]", 0.0587));
+  myws.factory(Form("n1[%.4f]", 11.596));
+  myws.factory(Form("alpha1[%.4f]", 0.8942));
+  myws.factory(Form("n2[%.4f]", 47.2527));
+  myws.factory(Form("alpha2[%.4f]", 4.9855));
+  myws.factory(Form("lambdas[%.4f]", -0.8999));*/
+
+  //10-15 values DCA Chi2 MIN 70
+  /*myws.factory(Form("mJPsi[%.4f]", 3.10371));
+  myws.factory(Form("sigma[%.4f]", 0.0642685));
+  myws.factory(Form("n1[%.4f]", 2.90835));
+  myws.factory(Form("alpha1[%.4f]", 0.933425));
+  myws.factory(Form("n2[%.4f]", 1.52921));
+  myws.factory(Form("alpha2[%.4f]", 1.57478));
+  myws.factory(Form("lambdas[%.4f]", -1.57982));*/
+
+  //15-30 values DCA Chi2 MIN 80
+  myws.factory(Form("mJPsi[%.4f]", 3.11153));
+  myws.factory(Form("sigma[%.4f]", 0.0641864));
+  myws.factory(Form("n1[%.4f]", 99.2839));
+  myws.factory(Form("alpha1[%.4f]", 0.593858));
+  myws.factory(Form("n2[%.4f]", 59.9582));
+  myws.factory(Form("alpha2[%.4f]", 0.952854));
+  myws.factory(Form("lambdas[%.4f]", -0.898005));
+
+=============================== SIG ===============================
+//0-1 values DCA Chi2 MIN 20
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.240982)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.100532));
+  myws.factory(Form("n11[%.6f]", 1.24426));
+  myws.factory(Form("alpha11[%.6f]", 2.07288));
+  myws.factory(Form("fres[%.4f]", 0.258269));
+  myws.factory(Form("tzJPsi[%.6f]", -0.008027));*/
+
+  //1-2 values DCA Chi2 MIN 20
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.17663)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0816568));
+  myws.factory(Form("n11[%.6f]", 1.42632));
+  myws.factory(Form("alpha11[%.6f]", 1.77335));
+  myws.factory(Form("fres[%.4f]", 0.313736));
+  myws.factory(Form("tzJPsi[%.6f]", -0.002619));*/
+
+  //2-3 values DCA Chi2 MIN 25
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.120524)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0523847));
+  myws.factory(Form("n11[%.6f]", 1.70314));
+  myws.factory(Form("alpha11[%.6f]", 1.18406));
+  myws.factory(Form("fres[%.4f]", 0.507168));
+  myws.factory(Form("tzJPsi[%.6f]", 0.002265));*/
+
+  //3-4 values DCA Chi2 MIN 30
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.112659)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0607792));
+  myws.factory(Form("n11[%.6f]", 1.42533));
+  myws.factory(Form("alpha11[%.6f]", 1.65526));
+  myws.factory(Form("fres[%.4f]", 0.441246));
+  myws.factory(Form("tzJPsi[%.6f]", 0.003363));*/
+
+  //4-5 values DCA Chi2 MIN 35
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.11055)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0674098));
+  myws.factory(Form("n11[%.6f]", 1.47479));
+  myws.factory(Form("alpha11[%.6f]", 1.8403));
+  myws.factory(Form("fres[%.4f]", 0.28395));
+  myws.factory(Form("tzJPsi[%.6f]", 0.003596));*/
+
+  //5-6 values DCA Chi2 MIN 40
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.0868935)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0507801));
+  myws.factory(Form("n11[%.6f]", 1.46682));
+  myws.factory(Form("alpha11[%.6f]", 1.64213));
+  myws.factory(Form("fres[%.4f]", 0.49921));
+  myws.factory(Form("tzJPsi[%.6f]", 0.002268));*/
+
+  //6-8 values DCA Chi2 MIN 45
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.0718613)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0422019));
+  myws.factory(Form("n11[%.6f]", 1.4297));
+  myws.factory(Form("alpha11[%.6f]", 1.67531));
+  myws.factory(Form("fres[%.4f]", 0.524347));
+  myws.factory(Form("tzJPsi[%.6f]", 0.000650));*/
+
+  //8-10 values DCA Chi2 MIN 55
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.067043)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0372547));
+  myws.factory(Form("n11[%.6f]", 1.61995));
+  myws.factory(Form("alpha11[%.6f]", 1.66896));
+  myws.factory(Form("fres[%.4f]", 0.439644));
+  myws.factory(Form("tzJPsi[%.6f]", 0.001119));*/
+
+  //10-15 values DCA Chi2 MIN 70
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  /*myws.factory(Form("sigma1[%.6f]", 0.0814888)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.0373076));
+  myws.factory(Form("n11[%.6f]", 1.23598));
+  myws.factory(Form("alpha11[%.6f]", 2.13012));
+  myws.factory(Form("fres[%.4f]", 0.266309));
+  myws.factory(Form("tzJPsi[%.6f]", 0.000021));*/
+
+  //15-30 values DCA Chi2 MIN 80
+  //myws.factory(Form("tzJPsi[%.6f]", 0.));
+  myws.factory(Form("sigma1[%.6f]", 0.0574189)); //10 0.5
+  myws.factory(Form("sigma2[%.6f]", 0.026723));
+  myws.factory(Form("n11[%.6f]", 1.40333));
+  myws.factory(Form("alpha11[%.6f]", 1.83903));
+  myws.factory(Form("fres[%.4f]", 0.277429));
+  myws.factory(Form("tzJPsi[%.6f]", 0.003057));
+
+ =============================== BKG ===============================
+ //0-1 values DCA Chi2 MIN 20
+  /*myws.factory(Form("b[%.4f]", 0.685136));
+  myws.factory(Form("f_DLIV[%.4f]", 0.750891)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.57424)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.419555));
+  myws.factory(Form("lambda_DF[%.4f]", 0.230063));
+  myws.factory(Form("lambda_DDS[%.4f]", 2.64925));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0378593));*/
+
+  //1-2 values DCA Chi2 MIN 20
+  /*myws.factory(Form("b[%.4f]", 0.751774));
+  myws.factory(Form("f_DLIV[%.4f]", 0.765119)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.58596)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.385107));
+  myws.factory(Form("lambda_DF[%.4f]", 0.203787));
+  myws.factory(Form("lambda_DDS[%.4f]", 2.40979));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.03861));*/
+
+  //2-3 values DCA Chi2 MIN 25
+  /*myws.factory(Form("b[%.4f]", 0.853608));
+  myws.factory(Form("f_DLIV[%.4f]", 0.796642)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.528014)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.339105));
+  myws.factory(Form("lambda_DF[%.4f]", 0.146464));
+  myws.factory(Form("lambda_DDS[%.4f]", 2.02406));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0525057));*/
+
+  //3-4 values DCA Chi2 MIN 30
+  /*myws.factory(Form("b[%.4f]", 0.9));
+  myws.factory(Form("f_DLIV[%.4f]", 0.825868)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.498114)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.355715));
+  myws.factory(Form("lambda_DF[%.4f]", 0.138003));
+  myws.factory(Form("lambda_DDS[%.4f]", 1.90446));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0744014));*/
+
+  //4-5 values DCA Chi2 MIN 35
+  /*myws.factory(Form("b[%.4f]", 0.886917));
+  myws.factory(Form("f_DLIV[%.4f]", 0.836308)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.562426)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.365743));
+  myws.factory(Form("lambda_DF[%.4f]", 0.133532));
+  myws.factory(Form("lambda_DDS[%.4f]", 1.70121));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0619282));*/
+
+  //5-6 values DCA Chi2 MIN 40
+  /*myws.factory(Form("b[%.4f]", 0.852561));
+  myws.factory(Form("f_DLIV[%.4f]", 0.853549)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.644097)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.397236));
+  myws.factory(Form("lambda_DF[%.4f]", 0.138568));
+  myws.factory(Form("lambda_DDS[%.4f]", 1.74926));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0390186));*/
+
+  //6-8 values DCA Chi2 MIN 45
+  /*myws.factory(Form("b[%.4f]", 0.899998));
+  myws.factory(Form("f_DLIV[%.4f]", 0.856469)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.596902)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.393879));
+  myws.factory(Form("lambda_DF[%.4f]", 0.116675));
+  myws.factory(Form("lambda_DDS[%.4f]",  1.52452));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0518996));*/
+
+  //8-10 values DCA Chi2 MIN 55
+  /*myws.factory(Form("b[%.4f]", 0.9));
+  myws.factory(Form("f_DLIV[%.4f]", 0.845881)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.755426)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.403507));
+  myws.factory(Form("lambda_DF[%.4f]", 0.102194));
+  myws.factory(Form("lambda_DDS[%.4f]",  1.3333));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0157768));*/
+
+  //10-15 values DCA Chi2 MIN 70
+  /*myws.factory(Form("b[%.4f]", 0.9));
+  myws.factory(Form("f_DLIV[%.4f]", 0.88038)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.753048)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.475317));
+  myws.factory(Form("lambda_DF[%.4f]", 0.216175));
+  myws.factory(Form("lambda_DDS[%.4f]", 1.25473));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", 0.0790175));*/
+
+  //15-30 values DCA Chi2 MIN 80
+  myws.factory(Form("b[%.4f]", 0.9));
+  myws.factory(Form("f_DLIV[%.4f]", 0.886233)); 
+  myws.factory(Form("f_DFSS[%.4f]", 0.89233)); 
+  myws.factory(Form("lambda_DSS[%.4f]", 0.46114));
+  myws.factory(Form("lambda_DF[%.4f]", 0.106631));
+  myws.factory(Form("lambda_DDS[%.4f]", 0.941845));
+  myws.factory(Form("tzJPsi_bkg[%.4f]", -0.0276396));
