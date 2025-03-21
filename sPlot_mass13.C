@@ -150,7 +150,8 @@ void FitMassModel(RooWorkspace &myws) {
 
   mass->setRange("Mass", massMin, massMax);
   
-  RooDataSet *data = tree2DataSet("/Users/emiliebarreau/alice/Python_Scripts/LHC23_pass4_skimmed_FULL/AO2D_NEW_KF.txt","O2rtdimuonall", tau, mass);
+  RooDataSet *data = tree2DataSet("AO2D_NEW_DCA.txt","O2rtdimuonall", tau, mass);
+  //RooDataSet *data = tree2DataSet("/Users/emiliebarreau/alice/Python_Scripts/LHC23_pass4_skimmed_FULL/AO2D_NEW_KF.txt","O2rtdimuonall", tau, mass);
   //RooDataSet *data = tree2DataSet("/Users/emiliebarreau/alice/Python_Scripts/LHC23_pass4_skimmed_FULL/AO2D_NEW_DCA.txt","O2rtdimuonall", tau, mass);
   //RooDataSet *data = tree2DataSet("/Users/emiliebarreau/alice/Python_Scripts/LHC23_pass4/LHC23_pass4_DCA.txt","O2rtdimuonall", tau, mass);
   //RooDataSet *data = tree2DataSet("/Users/emiliebarreau/alice/Python_Scripts/LHC23_pass4_skimmed_FULL/LHC23_pass4_skimmed_DCA.txt", "O2rtdimuonall", tau, mass);
@@ -179,7 +180,7 @@ void FitMassModel(RooWorkspace &myws) {
   sss << myws.var("pT2")->getValV() ;
   string testbis = sss.str();
 
-  TFile *Param_01 = TFile::Open(Form("/Users/emiliebarreau/alice/Macros/corr_frac_%s%s_EM_newChi2.root", test.c_str(), testbis.c_str()));
+  TFile *Param_01 = TFile::Open(Form("corr_frac_%s%s_EM_newChi2.root", test.c_str(), testbis.c_str()));
   TH1F *Histo_01 = static_cast<TH1F *>(Param_01->Get(Form("corr_frac_%s%s", test.c_str(), testbis.c_str())));
 
   myws.factory(Form("A[%.4f]", Histo_01->GetBinContent(1)));
