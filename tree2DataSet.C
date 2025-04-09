@@ -21,7 +21,9 @@ void readList(string filename, std::vector<string> &dataMap) {
 
 // void tree2DataSet()
 RooDataSet *tree2DataSet(string inputName, string TreeName, RooRealVar *ctau,
-                         RooRealVar *mass) {
+                         RooRealVar *mass, double ptmin, double ptmax,
+			 double chi2opti) 
+{
   vector<string> InputFileNames;
   // readList("list.txt",InputFileNames);
   readList(inputName, InputFileNames);
@@ -102,7 +104,7 @@ RooDataSet *tree2DataSet(string inputName, string TreeName, RooRealVar *ctau,
          fPt * ROOT::Math::sinh(fEta)) /
         (ROOT::Math::sqrt(fMass * fMass + fPt * fPt)));
     if (fEta1 < -2.5 && fEta1 > -3.6 && fEta2 < -2.5 && fEta2 > -3.6) {
-      if (fChi2MatchMCHMFT1 <= 30. && fChi2MatchMCHMFT2 <= 30.) {
+      if (fChi2MatchMCHMFT1 <= chi2opti && fChi2MatchMCHMFT2 <= chi2opti) {
         if (fPt1 > 0.7 && fPt2 > 0.7) {
           // if (fChi2MatchMCHMFT1 <= 35. && fChi2MatchMCHMFT2 <= 35. &&
           // fChi2MatchMCHMFT1 >= 30. && fChi2MatchMCHMFT2 >= 30.) {
@@ -110,7 +112,7 @@ RooDataSet *tree2DataSet(string inputName, string TreeName, RooRealVar *ctau,
           if (fIsAmbig1 == 0 && fIsAmbig2 == 0) {
             if (fSign == 0) {
               if (rap > 2.5 && rap < 3.6) {
-                if (fPt > 0. && fPt < 1.) {
+                if (fPt > ptmin && fPt < ptmax) {
                   if (fMass > 2.5 && fMass < 3.5) {
                     // if (fTauz > -3.e-2 && fTauz < 3.e-2) {
                     // if (fTauz > -1e-4 && fTauz < 6e-3) {
